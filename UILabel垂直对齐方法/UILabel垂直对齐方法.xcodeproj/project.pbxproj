@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60D05031D1100E000F7E0DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05021D1100E000F7E0DA /* main.m */; };
+		A60D05061D1100E000F7E0DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05051D1100E000F7E0DA /* AppDelegate.m */; };
+		A60D05091D1100E000F7E0DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05081D1100E000F7E0DA /* ViewController.m */; };
+		A60D050C1D1100E000F7E0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60D050A1D1100E000F7E0DA /* Main.storyboard */; };
+		A60D050E1D1100E000F7E0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60D050D1D1100E000F7E0DA /* Assets.xcassets */; };
+		A60D05111D1100E000F7E0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60D050F1D1100E000F7E0DA /* LaunchScreen.storyboard */; };
+		A60D051C1D1100E000F7E0DA /* UILabel______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D051B1D1100E000F7E0DA /* UILabel______Tests.m */; };
+		A60D05281D1101CD00F7E0DA /* ZWVerticalAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60D05181D1100E000F7E0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60D04F61D1100E000F7E0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60D04FD1D1100E000F7E0DA;
+			remoteInfo = "UILabel垂直对齐方法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60D04FE1D1100E000F7E0DA /* UILabel垂直对齐方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel垂直对齐方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60D05021D1100E000F7E0DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A60D05041D1100E000F7E0DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A60D05051D1100E000F7E0DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A60D05071D1100E000F7E0DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A60D05081D1100E000F7E0DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A60D050B1D1100E000F7E0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60D050D1D1100E000F7E0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60D05101D1100E000F7E0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60D05121D1100E000F7E0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60D05171D1100E000F7E0DA /* UILabel垂直对齐方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel垂直对齐方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60D051B1D1100E000F7E0DA /* UILabel______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel______Tests.m"; sourceTree = "<group>"; };
+		A60D051D1D1100E000F7E0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60D05261D1101CD00F7E0DA /* ZWVerticalAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWVerticalAlignLabel.h; sourceTree = "<group>"; };
+		A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWVerticalAlignLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60D04FB1D1100E000F7E0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D05141D1100E000F7E0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60D04F51D1100E000F7E0DA = {
+			isa = PBXGroup;
+			children = (
+				A60D05001D1100E000F7E0DA /* UILabel垂直对齐方法 */,
+				A60D051A1D1100E000F7E0DA /* UILabel垂直对齐方法Tests */,
+				A60D04FF1D1100E000F7E0DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60D04FF1D1100E000F7E0DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60D04FE1D1100E000F7E0DA /* UILabel垂直对齐方法.app */,
+				A60D05171D1100E000F7E0DA /* UILabel垂直对齐方法Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60D05001D1100E000F7E0DA /* UILabel垂直对齐方法 */ = {
+			isa = PBXGroup;
+			children = (
+				A60D05041D1100E000F7E0DA /* AppDelegate.h */,
+				A60D05051D1100E000F7E0DA /* AppDelegate.m */,
+				A60D05071D1100E000F7E0DA /* ViewController.h */,
+				A60D05081D1100E000F7E0DA /* ViewController.m */,
+				A60D050A1D1100E000F7E0DA /* Main.storyboard */,
+				A60D050D1D1100E000F7E0DA /* Assets.xcassets */,
+				A60D050F1D1100E000F7E0DA /* LaunchScreen.storyboard */,
+				A60D05121D1100E000F7E0DA /* Info.plist */,
+				A60D05011D1100E000F7E0DA /* Supporting Files */,
+				A60D05261D1101CD00F7E0DA /* ZWVerticalAlignLabel.h */,
+				A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */,
+			);
+			path = "UILabel垂直对齐方法";
+			sourceTree = "<group>";
+		};
+		A60D05011D1100E000F7E0DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A60D05021D1100E000F7E0DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A60D051A1D1100E000F7E0DA /* UILabel垂直对齐方法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A60D051B1D1100E000F7E0DA /* UILabel______Tests.m */,
+				A60D051D1D1100E000F7E0DA /* Info.plist */,
+			);
+			path = "UILabel垂直对齐方法Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60D04FD1D1100E000F7E0DA /* UILabel垂直对齐方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60D05201D1100E000F7E0DA /* Build configuration list for PBXNativeTarget "UILabel垂直对齐方法" */;
+			buildPhases = (
+				A60D04FA1D1100E000F7E0DA /* Sources */,
+				A60D04FB1D1100E000F7E0DA /* Frameworks */,
+				A60D04FC1D1100E000F7E0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel垂直对齐方法";
+			productName = "UILabel垂直对齐方法";
+			productReference = A60D04FE1D1100E000F7E0DA /* UILabel垂直对齐方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60D05161D1100E000F7E0DA /* UILabel垂直对齐方法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60D05231D1100E000F7E0DA /* Build configuration list for PBXNativeTarget "UILabel垂直对齐方法Tests" */;
+			buildPhases = (
+				A60D05131D1100E000F7E0DA /* Sources */,
+				A60D05141D1100E000F7E0DA /* Frameworks */,
+				A60D05151D1100E000F7E0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60D05191D1100E000F7E0DA /* PBXTargetDependency */,
+			);
+			name = "UILabel垂直对齐方法Tests";
+			productName = "UILabel垂直对齐方法Tests";
+			productReference = A60D05171D1100E000F7E0DA /* UILabel垂直对齐方法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60D04F61D1100E000F7E0DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A60D04FD1D1100E000F7E0DA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A60D05161D1100E000F7E0DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A60D04FD1D1100E000F7E0DA;
+					};
+				};
+			};
+			buildConfigurationList = A60D04F91D1100E000F7E0DA /* Build configuration list for PBXProject "UILabel垂直对齐方法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60D04F51D1100E000F7E0DA;
+			productRefGroup = A60D04FF1D1100E000F7E0DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60D04FD1D1100E000F7E0DA /* UILabel垂直对齐方法 */,
+				A60D05161D1100E000F7E0DA /* UILabel垂直对齐方法Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60D04FC1D1100E000F7E0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D05111D1100E000F7E0DA /* LaunchScreen.storyboard in Resources */,
+				A60D050E1D1100E000F7E0DA /* Assets.xcassets in Resources */,
+				A60D050C1D1100E000F7E0DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D05151D1100E000F7E0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60D04FA1D1100E000F7E0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D05091D1100E000F7E0DA /* ViewController.m in Sources */,
+				A60D05061D1100E000F7E0DA /* AppDelegate.m in Sources */,
+				A60D05281D1101CD00F7E0DA /* ZWVerticalAlignLabel.m in Sources */,
+				A60D05031D1100E000F7E0DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D05131D1100E000F7E0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D051C1D1100E000F7E0DA /* UILabel______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60D05191D1100E000F7E0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60D04FD1D1100E000F7E0DA /* UILabel垂直对齐方法 */;
+			targetProxy = A60D05181D1100E000F7E0DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A60D050A1D1100E000F7E0DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60D050B1D1100E000F7E0DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A60D050F1D1100E000F7E0DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60D05101D1100E000F7E0DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60D051E1D1100E000F7E0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A60D051F1D1100E000F7E0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60D05211D1100E000F7E0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UILabel垂直对齐方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.UILabel------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A60D05221D1100E000F7E0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UILabel垂直对齐方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.UILabel------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A60D05241D1100E000F7E0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UILabel垂直对齐方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.UILabel------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel垂直对齐方法.app/UILabel垂直对齐方法";
+			};
+			name = Debug;
+		};
+		A60D05251D1100E000F7E0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UILabel垂直对齐方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.UILabel------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel垂直对齐方法.app/UILabel垂直对齐方法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60D04F91D1100E000F7E0DA /* Build configuration list for PBXProject "UILabel垂直对齐方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60D051E1D1100E000F7E0DA /* Debug */,
+				A60D051F1D1100E000F7E0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60D05201D1100E000F7E0DA /* Build configuration list for PBXNativeTarget "UILabel垂直对齐方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60D05211D1100E000F7E0DA /* Debug */,
+				A60D05221D1100E000F7E0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60D05231D1100E000F7E0DA /* Build configuration list for PBXNativeTarget "UILabel垂直对齐方法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60D05241D1100E000F7E0DA /* Debug */,
+				A60D05251D1100E000F7E0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60D04F61D1100E000F7E0DA /* Project object */;
+}
