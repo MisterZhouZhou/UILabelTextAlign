@@ -14,7 +14,7 @@
 		A60D050E1D1100E000F7E0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60D050D1D1100E000F7E0DA /* Assets.xcassets */; };
 		A60D05111D1100E000F7E0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60D050F1D1100E000F7E0DA /* LaunchScreen.storyboard */; };
 		A60D051C1D1100E000F7E0DA /* UILabel______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D051B1D1100E000F7E0DA /* UILabel______Tests.m */; };
-		A60D05281D1101CD00F7E0DA /* ZWVerticalAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */; };
+		A60D05281D1101CD00F7E0DA /* ZWAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D05271D1101CD00F7E0DA /* ZWAlignLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		A60D05171D1100E000F7E0DA /* UILabel垂直对齐方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel垂直对齐方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60D051B1D1100E000F7E0DA /* UILabel______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel______Tests.m"; sourceTree = "<group>"; };
 		A60D051D1D1100E000F7E0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A60D05261D1101CD00F7E0DA /* ZWVerticalAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWVerticalAlignLabel.h; sourceTree = "<group>"; };
-		A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWVerticalAlignLabel.m; sourceTree = "<group>"; };
+		A60D05261D1101CD00F7E0DA /* ZWAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlignLabel.h; sourceTree = "<group>"; };
+		A60D05271D1101CD00F7E0DA /* ZWAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlignLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08DE75F2521BF370077C788 /* AlignLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A60D05261D1101CD00F7E0DA /* ZWAlignLabel.h */,
+				A60D05271D1101CD00F7E0DA /* ZWAlignLabel.m */,
+			);
+			name = AlignLabel;
+			sourceTree = "<group>";
+		};
 		A60D04F51D1100E000F7E0DA = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +93,7 @@
 		A60D05001D1100E000F7E0DA /* UILabel垂直对齐方法 */ = {
 			isa = PBXGroup;
 			children = (
+				A08DE75F2521BF370077C788 /* AlignLabel */,
 				A60D05041D1100E000F7E0DA /* AppDelegate.h */,
 				A60D05051D1100E000F7E0DA /* AppDelegate.m */,
 				A60D05071D1100E000F7E0DA /* ViewController.h */,
@@ -93,8 +103,6 @@
 				A60D050F1D1100E000F7E0DA /* LaunchScreen.storyboard */,
 				A60D05121D1100E000F7E0DA /* Info.plist */,
 				A60D05011D1100E000F7E0DA /* Supporting Files */,
-				A60D05261D1101CD00F7E0DA /* ZWVerticalAlignLabel.h */,
-				A60D05271D1101CD00F7E0DA /* ZWVerticalAlignLabel.m */,
 			);
 			path = "UILabel垂直对齐方法";
 			sourceTree = "<group>";
@@ -160,7 +168,7 @@
 		A60D04F61D1100E000F7E0DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = rayootech;
 				TargetAttributes = {
 					A60D04FD1D1100E000F7E0DA = {
@@ -174,7 +182,7 @@
 			};
 			buildConfigurationList = A60D04F91D1100E000F7E0DA /* Build configuration list for PBXProject "UILabel垂直对齐方法" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -218,7 +226,7 @@
 			files = (
 				A60D05091D1100E000F7E0DA /* ViewController.m in Sources */,
 				A60D05061D1100E000F7E0DA /* AppDelegate.m in Sources */,
-				A60D05281D1101CD00F7E0DA /* ZWVerticalAlignLabel.m in Sources */,
+				A60D05281D1101CD00F7E0DA /* ZWAlignLabel.m in Sources */,
 				A60D05031D1100E000F7E0DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,18 +273,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -309,18 +328,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
